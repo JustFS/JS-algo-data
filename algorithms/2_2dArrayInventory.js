@@ -9,7 +9,7 @@ function updateInventory(arr1, arr2) {
     [name]: amount
   }), {});
 
-  for (const name in obj2) {
+  for (let name in obj2) {
     if (name in obj1){
       obj1[name] += obj2[name];
     } else {

@@ -25,7 +25,8 @@ console.log(pairwise([0, 1, 2, 3, 4, 5], 7));
 // console.time
 console.time('test');
 let test = [];
-for (let i = 1; i <= 1000000000000; i++){
-  test.push[i];
+for (let i = 1; i <= 100000000000; i++){
+  test.push(i);
+  console.log(test);
 }
 console.timeEnd('test');
